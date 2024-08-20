@@ -1,11 +1,12 @@
 package main
 
-import(
-	"os"
-	"github.com/gin-gonic/gin"
+import (
 	"golang-restaurant-management/database"
-	"golang-restaurant-management/routes"
 	"golang-restaurant-management/middleware"
+	"golang-restaurant-management/routes"
+	"os"
+
+	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
