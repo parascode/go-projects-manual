@@ -2,11 +2,17 @@ module github.com/paras/shorten-url-fiber-redis
 
 go 1.22.5
 
-require github.com/gofiber/fiber/v2 v2.52.5
+require (
+	github.com/go-redis/redis/v8 v8.11.5
+	github.com/gofiber/fiber/v2 v2.52.5
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
-	github.com/google/uuid v1.5.0 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
+	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/google/uuid v1.5.0
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect

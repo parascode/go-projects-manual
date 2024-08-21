@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"routes"
+
+	"github.com/paras/shorten-url-fiber-redis/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
